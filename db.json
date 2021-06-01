@@ -1,5 +1,5 @@
 {
-    "For-Sale": [
+    "for-sale": [
         {
             "id": 1,
             "instrument": "Alto Saxophone",
@@ -119,7 +119,7 @@
             "instrument": "Digital Piano",
             "price": 1699.99,
             "image": "digital-piano.png"
-        }
+        },
         {
             "id": 21,
             "instrument": "Marimba",
@@ -247,7 +247,7 @@
             "instrument": "Digital Piano",
             "price": 50.00,
             "image": "digital-piano.png"
-        }
+        },
         {
             "id": 21,
             "instrument": "Marimba",
