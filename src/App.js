@@ -23,7 +23,6 @@ export default class App extends Component {
       <div className="app">
         <p>app.js is purple</p>
         <Header />
-        <HomePage />
         <div className="footer">
           This is our footer
         </div>
