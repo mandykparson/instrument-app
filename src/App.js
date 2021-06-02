@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './App.css'
 import Header from "./Components/Header"
 import HomePage from "./Components/Homepage/Homepage"
 
@@ -19,7 +20,8 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="app">
+        <p>app.js is purple</p>
         <Header />
         <HomePage />
         <div className="footer">
