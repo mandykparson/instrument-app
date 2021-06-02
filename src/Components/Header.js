@@ -9,7 +9,7 @@ import {
     Switch
 } from 'react-router-dom'
 
-export default function Header() {
+export default function Header(props) {
     return (
         <Router>
             <div className="header">
@@ -22,10 +22,15 @@ export default function Header() {
 
                     <Switch>
                         <Route exact path="/">
-                            <HomePage />
+                            <HomePage 
+                            cart={props.cart}
+                            instruments={props.instruments} />
                         </Route>
                         <Route exact path="/selectinstruments">
-                            <SelectInstruments />
+                            <SelectInstruments 
+                            cart={props.cart}
+                            instruments={props.instruments} 
+                            />
                         </Route>
                         <Route exact path="/viewCart">
                             <ViewCart />
