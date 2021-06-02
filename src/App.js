@@ -5,7 +5,7 @@ import HomePage from "./Components/Homepage/Homepage"
 
 export default class App extends Component {
     state = {
-      cart: ['trumpet'],
+      cart: [],
       instruments: []
     }
 
@@ -18,17 +18,18 @@ export default class App extends Component {
   }
 
   addInstrumentsToCart = (instrumentsToAdd) => {
-    console.log(instrumentsToAdd)
-    // const purchasedItem = this.state.cart
-    // this.setState({
-    //   cart: [...purchasedItem, instrumentsToAdd]
-    // })
+    //console.log(instrumentsToAdd)
+    const purchasedItem = this.state.cart
+    this.setState({
+      cart: [...purchasedItem, instrumentsToAdd]
+    })
+    console.log(this.state.cart)
   }
 
   removeInstrumentsFromCart = (instrumentsToTake) => {
     const removeItem = this.state.cart.filter(item => {
       return (
-      item.id !== instrumentsToTake.id)})
+      item.id !== instrumentsToTake.key)})
     this.setState({
       cart: [...removeItem]
     })
@@ -41,6 +42,8 @@ export default class App extends Component {
         <Header 
         cart={this.state.cart} 
         instruments={this.state.instruments}
+        addInstrumentsToCart={this.addInstrumentsToCart}
+        removeInstrumentsFromCart={this.removeInstrumentsFromCart}
         />
         <div className="footer">
           This is our footer

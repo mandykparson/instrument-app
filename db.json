@@ -6,7 +6,7 @@
             "price": 1269.95,
             "rent": 20.00,
             "category": "woodwind",
-            "image": "alto-sax.png"
+            "image": "https://i.imgur.com/BCK57J8.png"
         },
         {
             "id": 2,
@@ -14,7 +14,7 @@
             "price": 1567.99,
             "rent": 20.00,
             "category": "woodwind",
-            "image": "flute.png"
+            "image": "https://i.imgur.com/mzAr9Xk.png"
         },
         {
             "id": 3,
@@ -22,7 +22,7 @@
             "price": 1504.99,
             "rent": 20.00,
             "category": "woodwind",
-            "image": "clarinet.png"
+            "image": "https://i.imgur.com/oD3t1bB.png"
         },
         {
             "id": 4,
@@ -30,7 +30,7 @@
             "price": 5692.99,
             "rent": 70.00,
             "category": "woodwind",
-            "image": "baritone-saxophone.png"
+            "image": "https://i.imgur.com/F6Jis66.png"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
             "price": 2965.99,
             "rent": 70.00,
             "category": "woodwind",
-            "image": "tenor-saxophone.png" 
+            "image": "https://i.imgur.com/ULoRXfD.png" 
         },
         {
             "id": 6,
@@ -46,7 +46,7 @@
             "price": 4200.00,
             "rent": 40.00,
             "category": "woodwind",
-            "image": "oboe.png"
+            "image": "https://i.imgur.com/hhcIBgn.png"
         },
         {
             "id": 7,
@@ -54,7 +54,7 @@
             "price": 9259.99,
             "rent": 70.00,
             "category": "woodwind",
-            "image": "baritone-clarinet.png"
+            "image": "https://i.imgur.com/SQVxUE9.png"
         },
         {
             "id": 8,
@@ -62,7 +62,7 @@
             "price": 809.95,
             "rent": 20.00,
             "category": "brass",
-            "image": "trumpet.png"
+            "image": "https://i.imgur.com/XYWz0wG.png"
         },
         {
             "id": 9,
@@ -70,7 +70,7 @@
             "price": 1684.00,
             "rent": 40.00,
             "category": "brass",
-            "image": "trombone.png"
+            "image": "https://i.imgur.com/UvUQbpB.png"
         },
         {
             "id": 22,
@@ -78,7 +78,7 @@
             "price": 1726.99,
             "rent": 20.00,
             "category": "percussion",
-            "image": "bass-drum.png"
+            "image": "https://i.imgur.com/rythKOh.png"
         },
         {
             "id": 11,
@@ -86,7 +86,7 @@
             "price": 7107.99,
             "rent": 100.00,
             "category": "brass",
-            "image": "sousaphone.png"
+            "image": "https://i.imgur.com/KewSMXm.png"
         },
         {
             "id": 12,
@@ -94,7 +94,7 @@
             "price": 8949.00,
             "rent": 100.00,
             "category": "brass",
-            "image": "tuba.png"
+            "image": "https://i.imgur.com/HdyxC0O.png"
         },
         {
             "id": 13,
@@ -102,7 +102,7 @@
             "price": 3485.99,
             "rent": 70.00,
             "category": "brass",
-            "image": "french-horn.png"
+            "image": "https://i.imgur.com/SEbMBPi.png"
         },
         {
             "id": 14,
@@ -110,7 +110,7 @@
             "price": 2745.99,
             "rent": 50.00,
             "category": "brass",
-            "image": "euphonium.png"
+            "image": "https://i.imgur.com/NYWxlqi.png"
         },
         {
             "id": 15,
@@ -118,7 +118,7 @@
             "price": 1039.95,
             "rent": 10.00,
             "category": "percussion",
-            "image": "cymbals.png"
+            "image": "https://i.imgur.com/5SpCbIC.png"
         },
         {
             "id": 16,
@@ -126,7 +126,7 @@
             "price": 429.99,
             "rent": 5.00,
             "category": "percussion",
-            "image": "timbs.png"
+            "image": "https://i.imgur.com/MbdvWlq.png"
         },
         {
             "id": 17,
@@ -134,7 +134,7 @@
             "price": 44.99,
             "rent": 5.00,
             "category": "percussion",
-            "image": "cabasa.png"
+            "image": "https://i.imgur.com/pubO611.png"
         },
         {
             "id": 18,
@@ -142,7 +142,7 @@
             "price": 429.99,
             "rent": 10.00,
             "category": "percussion",
-            "image": "conga-set.png"
+            "image": "https://i.imgur.com/3wYpn0m.png"
         },
         {
             "id": 19,
@@ -150,7 +150,7 @@
             "price": 174.99,
             "rent": 10.00,
             "category": "percussion",
-            "image": "chimes.png"
+            "image": "https://i.imgur.com/J2x7piZ.png"
         },
         {
             "id": 20,
@@ -158,7 +158,7 @@
             "price": 1699.99,
             "rent": 50.00,
             "category": "percussion",
-            "image": "digital-piano.png"
+            "image": "https://i.imgur.com/cN1OpnZ.png"
         },
         {
             "id": 21,
@@ -166,7 +166,7 @@
             "price": 2697.99,
             "rent": 70.00,
             "category": "percussion",
-            "image": "marimba.png"
+            "image": "https://i.imgur.com/DujKoBt.png"
         }
     ]
 }

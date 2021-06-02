@@ -25,3 +25,20 @@ body {
 .selectInstruments{
   background-color: deepskyblue;
 }
+.instrument-card {
+  width: 25%;
+  border-style: solid;
+  border-color: black;
+}
+.card-container {
+  padding: 2px 16px;
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+.card-image {
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
+}

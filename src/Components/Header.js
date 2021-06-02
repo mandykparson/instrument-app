@@ -16,7 +16,7 @@ export default function Header(props) {
                 <h1>Colorado Band Association</h1>
                     <nav>
                         <Link to="/">HOME </Link>| 
-                        <Link to="/selectinstruments"> Rent or Buy </Link>| 
+                        <Link to="/selectinstruments"> Instrument Selection </Link>| 
                         <Link to="/viewcart">View Cart</Link>
                     </nav>
 
@@ -30,10 +30,15 @@ export default function Header(props) {
                             <SelectInstruments 
                             cart={props.cart}
                             instruments={props.instruments} 
+                            addInstrumentsToCart={props.addInstrumentsToCart}
                             />
                         </Route>
                         <Route exact path="/viewCart">
-                            <ViewCart />
+                            <ViewCart 
+                            removeInstrumentsFromCart={props.removeInstrumentsFromCart}
+                            cart={props.cart}
+                            instruments={props.instruments}
+                            />
                         </Route>
                     </Switch>
             </div>

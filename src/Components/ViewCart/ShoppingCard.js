@@ -1,20 +1,17 @@
 import React from 'react'
 
-export default function InstrumentCard(props) {
-    //console.log(instrument)
-
+export default function ShoppingCard(props) {
     const handleClick = () => {
-        props.addInstrumentsToCart(props.instrument)
+        props.removeInstrumentsFromCart(props.instrument)
     }
     return (
         <div className="instrument-card">
             <img className="card-image" src={props.instrument.image} />
             <div className="card-container">
             <h3>{props.instrument.instrument}</h3>
+            <button onClick={handleClick}>X</button>
             <div className="button-container">
-                {/* <button onClick={handleClick}>Rent ${props.instrument.rent}</button> */}
-                <button onClick={handleClick}>Buy ${props.instrument.price}</button>
-                </div>
+            </div>
             </div>
         </div>
     )

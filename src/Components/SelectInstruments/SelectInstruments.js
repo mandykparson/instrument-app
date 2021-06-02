@@ -6,16 +6,25 @@ export default function SelectInstruments(props) {
     const renderCards = () => {
         return props.instruments.map(instrument => {
             //console.log(instrument)
-             return <InstrumentCard instrument={instrument} />
+             return <InstrumentCard 
+             key={instrument.id} 
+             addInstrumentsToCart={props.addInstrumentsToCart} 
+             instrument={instrument} />
          })
     }
-    //const {instrument, price, rent, category, image} = instruments
-    //console.log(props.instruments)
-    
-
+    // const dropDownButton = (e) => {
+    //     console.log(e.target)
+    // }
     return (
         <div className="selectInstruments">
-            Select Instruments
+            
+            <label for="instrument">Select Instruments:</label>
+
+            <select name="instrument-drop-down" id="instrument-button">
+                <option value="brass">Brass</option>
+                <option value="woodwind">Woodwind</option>
+                <option value="percussion">Percussion</option>
+            </select>
             {renderCards()}
             {/* <h1>{props.instruments[0].instrument}</h1>
             <h2>$20</h2> */}
