@@ -24,7 +24,6 @@ export default class App extends Component {
     this.setState({
       cart: [...noRepeatInstruments, instrumentsToAdd]
     })
-    console.log(this.state.cart)
   }
 
   removeInstrumentsFromCart = (instrumentsToTake) => {
@@ -40,13 +39,14 @@ export default class App extends Component {
     return (
       <div className="app">
         <Header 
-        cart={this.state.cart} 
-        instruments={this.state.instruments}
-        addInstrumentsToCart={this.addInstrumentsToCart}
-        removeInstrumentsFromCart={this.removeInstrumentsFromCart}
+          cart={this.state.cart} 
+          instruments={this.state.instruments}
+          addInstrumentsToCart={this.addInstrumentsToCart}
+          removeInstrumentsFromCart={this.removeInstrumentsFromCart}
+          filterInstruments={this.filterInstruments}
         />
         <div className="footer">
-          Colorado Band Master Association copyright
+          Colorado Band Master Association | copyright 2021 | Denver, Colorado
         </div>
       </div>
     )

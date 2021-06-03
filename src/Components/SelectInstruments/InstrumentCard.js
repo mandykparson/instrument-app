@@ -8,7 +8,7 @@ export default function InstrumentCard(props) {
     }
     return (
         <div className="instrument-card">
-            <img className="card-image" src={props.instrument.image} />
+            <img className="card-image" src={props.instrument.image} alt={props.instrument.instrument}/>
             <div className="card-container">
             <h3>{props.instrument.instrument}</h3>
             <div className="button-container">

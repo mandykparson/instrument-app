@@ -1,28 +1,56 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
 .app {
-  background-color: blueviolet;
   margin: 0vw 0vw 0vw 0vw;
 }
 body {
   margin: 0px;
 }
 .header{
-  margin: 0px;
   background-color: rgb(10, 46, 162);
+}
+.navbar {
+  text-decoration: none;
+  color: white;
+}
+h1 {
+  color: white;
+  font-family: 'Limelight', cursive;
+}
+.header-bar {
+  margin:0px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .homepage{
   background-color: rgb(255, 255, 255);
 }
-
 .viewCart{
-  background-color:darkcyan;
+  background-color: white;
+  display: flex;
 }
-
+.shopping-cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.shopping-card{
+  text-align: center;
+  width: 25%;
+  border-style: solid;
+  border-color: white;
+  margin: 1vw 0vw 1vw 0vw;
+  background-color: white;
+}
+.checkout {
+  width: 100%;
+}
 .footer{
   background-color:rgb(255, 255, 255);
   text-align: center; 
 }
-
 .selectInstruments{
   background-color: rgb(181, 187, 189);
 }
@@ -30,20 +58,20 @@ body {
   text-align: center;
   width: 25%;
   border-style: solid;
-  border-color: black;
+  border-color: white;
   margin: 1vw 0vw 1vw 0vw;
+  background-color: white;
 }
 .instrument-cards-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.card-container {
-  padding: 2px 16px;
-}
+
 .button-container {
   display: flex;
   justify-content: space-around;
+  margin: 1rem;
 }
 .card-image {
   width: 100%;
@@ -52,43 +80,28 @@ body {
 }
 #homepage-image-main {
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
 }
 .review-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   width: 100%;
   justify-content: space-around;
 }
 .review-card {
   display: flex;
-  justify-content: space-around;
-  width: 50vw;
+  width: 75%;
   height: auto;
   margin: 1rem;
   padding: 1rem;
 }
 .review-image-container {
-
+  width:25%;
 }
 .review-text-container {
-  color: rgb(0, 0, 0);
-}
-.review-text-container p {
-  color: black;
-  width: 20vw;
-}
-h1 {
-  margin-left: 2vw;
-  color: white;
-  font-family: 'Limelight', cursive;
-}
-.navbar {
-  margin-top: 4vh;
-  margin-bottom: 4vh;
-  margin-right: 1vw;
-  text-decoration: none;
-  color: white;
+  background-color: white;
+  width: 75%;
+  padding-left: 2rem;
 }
 a {
   text-decoration: none;
@@ -97,13 +110,11 @@ a {
 a:hover {
   color: gray;
 }
-.header-bar {
-  display: flex;
-  justify-content: space-between;
-}
-.checkout-price {
-  margin-left: 2vw;
-  padding-bottom: 2vw;
-  font-size:  4vw;
-  color: white;
+.homepage > p {
+  text-align: center;
+  font-size: larger;
+  background-color: rgb(213, 213, 213);
+  margin: -1px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
