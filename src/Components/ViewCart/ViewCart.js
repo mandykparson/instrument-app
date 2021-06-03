@@ -4,10 +4,11 @@ import ShoppingCard from './ShoppingCard'
 export default function ViewCart(props) {
     const finalPrice = () => {
         let price = 0
+        let fprice = price.toFixed(2)
         props.cart.map(instrument => {
             price = price + instrument.price
         })
-        return price
+        return fprice
         
     }
     const renderCards = () => {
@@ -24,7 +25,9 @@ export default function ViewCart(props) {
             View Cart
             {renderCards()}
             <h1>Checkout</h1>
-            {finalPrice()}
+            <div className="checkout-price">
+            <p>${finalPrice()}</p>
+            </div>
             
         </div>
     )

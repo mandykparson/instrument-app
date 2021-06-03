@@ -13,12 +13,14 @@ export default function Header(props) {
     return (
         <Router>
             <div className="header">
+                <div className="header-bar">
                 <h1>Colorado Band Association</h1>
-                    <nav>
+                    <nav className="navbar">
                         <Link to="/">HOME </Link>| 
                         <Link to="/selectinstruments"> Instrument Selection </Link>| 
-                        <Link to="/viewcart">View Cart</Link>
+                        <Link to="/viewcart">View Cart({props.cart.length})</Link>
                     </nav>
+                </div>
 
                     <Switch>
                         <Route exact path="/">

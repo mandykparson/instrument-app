@@ -39,7 +39,6 @@ export default class App extends Component {
   render() {
     return (
       <div className="app">
-        <p>app.js is purple</p>
         <Header 
         cart={this.state.cart} 
         instruments={this.state.instruments}
@@ -47,7 +46,7 @@ export default class App extends Component {
         removeInstrumentsFromCart={this.removeInstrumentsFromCart}
         />
         <div className="footer">
-          This is our footer
+          Colorado Band Master Association copyright
         </div>
       </div>
     )

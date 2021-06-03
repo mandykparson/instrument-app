@@ -24,7 +24,9 @@ export default function SelectInstruments(props) {
                 <option value="woodwind">Woodwind</option>
                 <option value="percussion">Percussion</option>
             </select>
+            <div className="instrument-cards-container">
             {renderCards()}
+            </div>
             {/* <h1>{props.instruments[0].instrument}</h1>
             <h2>$20</h2> */}
             
