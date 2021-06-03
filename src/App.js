@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
 import Header from "./Components/Header"
-import HomePage from "./Components/Homepage/Homepage"
 
 export default class App extends Component {
     state = {
@@ -19,9 +18,11 @@ export default class App extends Component {
 
   addInstrumentsToCart = (instrumentsToAdd) => {
     //console.log(instrumentsToAdd)
-    const purchasedItem = this.state.cart
+    const noRepeatInstruments = this.state.cart.filter(instrument => {
+      return instrument.id !== instrumentsToAdd.id
+    })
     this.setState({
-      cart: [...purchasedItem, instrumentsToAdd]
+      cart: [...noRepeatInstruments, instrumentsToAdd]
     })
     console.log(this.state.cart)
   }
@@ -29,9 +30,9 @@ export default class App extends Component {
   removeInstrumentsFromCart = (instrumentsToTake) => {
     const removeItem = this.state.cart.filter(item => {
       return (
-      item.id !== instrumentsToTake.key)})
+      item.id !== instrumentsToTake.id)})
     this.setState({
-      cart: [...removeItem]
+      cart: removeItem
     })
   }
 

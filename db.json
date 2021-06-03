@@ -6,6 +6,7 @@
             "price": 1269.95,
             "rent": 20.00,
             "category": "woodwind",
+            "amount": 1,
             "image": "https://i.imgur.com/BCK57J8.png"
         },
         {
@@ -14,6 +15,7 @@
             "price": 1567.99,
             "rent": 20.00,
             "category": "woodwind",
+            "amount": 1,
             "image": "https://i.imgur.com/mzAr9Xk.png"
         },
         {
@@ -22,6 +24,7 @@
             "price": 1504.99,
             "rent": 20.00,
             "category": "woodwind",
+            "amount": 1,
             "image": "https://i.imgur.com/oD3t1bB.png"
         },
         {
@@ -30,6 +33,7 @@
             "price": 5692.99,
             "rent": 70.00,
             "category": "woodwind",
+            "amount": 1,
             "image": "https://i.imgur.com/F6Jis66.png"
         },
         {
@@ -38,6 +42,7 @@
             "price": 2965.99,
             "rent": 70.00,
             "category": "woodwind",
+            "amount": 1,
             "image": "https://i.imgur.com/ULoRXfD.png" 
         },
         {
@@ -46,6 +51,7 @@
             "price": 4200.00,
             "rent": 40.00,
             "category": "woodwind",
+            "amount": 1,
             "image": "https://i.imgur.com/hhcIBgn.png"
         },
         {
@@ -54,6 +60,7 @@
             "price": 9259.99,
             "rent": 70.00,
             "category": "woodwind",
+            "amount": 1,
             "image": "https://i.imgur.com/SQVxUE9.png"
         },
         {
@@ -62,6 +69,7 @@
             "price": 809.95,
             "rent": 20.00,
             "category": "brass",
+            "amount": 1,
             "image": "https://i.imgur.com/XYWz0wG.png"
         },
         {
@@ -70,6 +78,7 @@
             "price": 1684.00,
             "rent": 40.00,
             "category": "brass",
+            "amount": 1,
             "image": "https://i.imgur.com/UvUQbpB.png"
         },
         {
@@ -78,6 +87,7 @@
             "price": 1726.99,
             "rent": 20.00,
             "category": "percussion",
+            "amount": 1,
             "image": "https://i.imgur.com/rythKOh.png"
         },
         {
@@ -86,6 +96,7 @@
             "price": 7107.99,
             "rent": 100.00,
             "category": "brass",
+            "amount": 1,
             "image": "https://i.imgur.com/KewSMXm.png"
         },
         {
@@ -94,6 +105,7 @@
             "price": 8949.00,
             "rent": 100.00,
             "category": "brass",
+            "amount": 1,
             "image": "https://i.imgur.com/HdyxC0O.png"
         },
         {
@@ -102,6 +114,7 @@
             "price": 3485.99,
             "rent": 70.00,
             "category": "brass",
+            "amount": 1,
             "image": "https://i.imgur.com/SEbMBPi.png"
         },
         {
@@ -110,6 +123,7 @@
             "price": 2745.99,
             "rent": 50.00,
             "category": "brass",
+            "amount": 1,
             "image": "https://i.imgur.com/NYWxlqi.png"
         },
         {
@@ -118,6 +132,7 @@
             "price": 1039.95,
             "rent": 10.00,
             "category": "percussion",
+            "amount": 1,
             "image": "https://i.imgur.com/5SpCbIC.png"
         },
         {
@@ -126,6 +141,7 @@
             "price": 429.99,
             "rent": 5.00,
             "category": "percussion",
+            "amount": 1,
             "image": "https://i.imgur.com/MbdvWlq.png"
         },
         {
@@ -134,6 +150,7 @@
             "price": 44.99,
             "rent": 5.00,
             "category": "percussion",
+            "amount": 1,
             "image": "https://i.imgur.com/pubO611.png"
         },
         {
@@ -142,6 +159,7 @@
             "price": 429.99,
             "rent": 10.00,
             "category": "percussion",
+            "amount": 1,
             "image": "https://i.imgur.com/3wYpn0m.png"
         },
         {
@@ -150,6 +168,7 @@
             "price": 174.99,
             "rent": 10.00,
             "category": "percussion",
+            "amount": 1,
             "image": "https://i.imgur.com/J2x7piZ.png"
         },
         {
@@ -158,6 +177,7 @@
             "price": 1699.99,
             "rent": 50.00,
             "category": "percussion",
+            "amount": 1,
             "image": "https://i.imgur.com/cN1OpnZ.png"
         },
         {
@@ -166,6 +186,7 @@
             "price": 2697.99,
             "rent": 70.00,
             "category": "percussion",
+            "amount": 1,
             "image": "https://i.imgur.com/DujKoBt.png"
         }
     ]

@@ -12,13 +12,13 @@ export default function ViewCart(props) {
     }
     const renderCards = () => {
         return props.cart.map(instrument => {
-            //console.log(instrument)
-             return <ShoppingCard
-             key={instrument.id} 
-             removeInstrumentsFromCart={props.removeInstrumentsFromCart} 
-             instrument={instrument} />
-         })
-        }
+            return <ShoppingCard
+                key={instrument.id} 
+                removeInstrumentsFromCart={props.removeInstrumentsFromCart} 
+                instrument={instrument} 
+                />
+        })
+    }
     return (
         <div className="viewCart">
             View Cart

@@ -5,12 +5,11 @@ import InstrumentCard from './InstrumentCard'
 export default function SelectInstruments(props) {
     const renderCards = () => {
         return props.instruments.map(instrument => {
-            //console.log(instrument)
-             return <InstrumentCard 
-             key={instrument.id} 
-             addInstrumentsToCart={props.addInstrumentsToCart} 
-             instrument={instrument} />
-         })
+            return <InstrumentCard 
+                key={instrument.id} 
+                addInstrumentsToCart={props.addInstrumentsToCart} 
+                instrument={instrument} />
+        })
     }
     // const dropDownButton = (e) => {
     //     console.log(e.target)
